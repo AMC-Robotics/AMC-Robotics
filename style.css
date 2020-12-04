@@ -76,9 +76,6 @@ font-size: 14px;
   font-family: Roboto, Helvetica, sans-serif;
   background-color: black;
 }
-
-
-
 #amcsquare{
   width:150px;
   height:auto;
@@ -241,10 +238,13 @@ h4 {font-size: 24px;}
   font-weight:bold;
 
 }
-#TI{
-  margin-top:5%;
-  background-color: red; /* For browsers that do not support gradients */
- background-image: linear-gradient(to bottom right, red, orange);
+#TIheading{
+  color: white;
+  opacity:0.8;
+  margin-top:3300px;
+  text-align: center;
+  font-size: 60px;
+  font-weight:bold;
 }
 .centered {
   position: absolute;
@@ -308,6 +308,7 @@ h4 {font-size: 24px;}
   width:100%;
   background-color:white;
   position:relative;
+  margin-bottom:120px;
 }
 #infoheading{
   width:100%;
@@ -326,6 +327,7 @@ h4 {font-size: 24px;}
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom:120px;
 }
 #info{
   background-color:white;
