@@ -182,8 +182,7 @@ body {
 }
 #challenges{
 width:90%;
-margin-left: auto;
-  margin-right: auto;
+margin:auto;
 }
 a{
   color: white;
@@ -199,7 +198,9 @@ a:hover {
 a:active {
   color: red;
 }
-
+.twidths{
+  width:50%;
+}
 h1 {text-align: center; color: #FFFFFF;}
 h2 {text-align: center; color: #FFFFFF;}
 p {text-align: center;}
@@ -212,19 +213,25 @@ h4 {font-size: 24px;}
 }
 #githubhead{
   color: #FFFFFF;
+  width:70%;
   text-align: left;
-  margin-top: 30px;
+  line-height: 1.6;
   font-size: 60px;
   font-weight:bold;
+  margin:auto;
 }
 .topaboutus{
   margin-top:80px;
 }
-.dellheading{
+#dellparallax h1{
   color: #FFFFFF;
   opacity:0.8;
-  text-align: center;
-  margin-top: 30px;
+  font-weight:bold;
+  position: relative;
+top: 50%;
+transform: translateY(-50%);
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
   font-size: 60px;
   font-weight:bold;
 }
@@ -238,13 +245,17 @@ h4 {font-size: 24px;}
   font-weight:bold;
 
 }
-#TIheading{
+#TIparallax h1{
   color: white;
   opacity:0.8;
-  margin-top:3300px;
-  text-align: center;
   font-size: 60px;
   font-weight:bold;
+  position: relative;
+top: 50%;
+transform: translateY(-50%);
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+
 }
 .centered {
   position: absolute;
